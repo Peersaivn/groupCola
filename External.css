@@ -1,0 +1,19 @@
+.Hello {
+    color: blue;
+}
+#love {
+    color: red;
+    font-style: italic;
+}
+* {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p {
+    font-size: 40px;
+    
+}
+.kagrupo {
+    color: green;
+    font-weight: bold;
+}
