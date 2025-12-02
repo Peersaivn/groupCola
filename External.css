@@ -17,3 +17,32 @@ p {
     color: green;
     font-weight: bold;
 }
+
+*{
+    padding: 10;
+    margin: 10;
+}
+
+p {
+    background-color: slategrey;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body h2 {
+    width: 500px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 50px;
+    background-color: aquamarine;
+    font-family: cursive;
+}
+
+body h2:hover {
+    text-decoration: underline;
+}
+
+body h2::before {
+    content: "Members:";
+}
